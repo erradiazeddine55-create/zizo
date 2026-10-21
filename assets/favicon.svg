@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EZ">
+  <rect width="64" height="64" rx="18" fill="#111315" />
+  <path d="M7 45 28 7h15L28 34h17L20 58Z" fill="#ffd400" opacity=".95" />
+  <text x="10" y="39" fill="#fff" font-family="Arial, sans-serif" font-size="27" font-weight="900">E</text>
+  <text x="35" y="39" fill="#ffd400" font-family="Arial, sans-serif" font-size="27" font-weight="900">Z</text>
+</svg>
