@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111315" />
+    <meta
+      name="description"
+      content="Carte de visite numérique ElectroZizo : électricité générale, câblage réseaux, caméras de surveillance et diagnostic électrique."
+    />
+    <meta property="og:title" content="ElectroZizo — Électricité & sécurité" />
+    <meta
+      property="og:description"
+      content="Électricité générale, réseaux, vidéosurveillance et diagnostic électrique."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/electrozizo-services-v2.png" />
+    <title>ElectroZizo — Carte de visite numérique</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header" aria-label="En-tête">
+      <a class="brand brand-header" href="#accueil" aria-label="ElectroZizo, accueil">
+        <img
+          class="header-logo"
+          src="assets/electrozizo-banner-extracted.png"
+          alt="ElectroZizo — Électricité, caméra de surveillance, câblage et matériaux"
+          width="2207"
+          height="712"
+        />
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Électricité • Réseaux • Sécurité</p>
+          <h1 id="hero-title">Votre installation,<br /><em>bien connectée.</em></h1>
+          <p class="hero-lede">
+            Solutions électriques, réseau informatique, vidéosurveillance et
+            diagnostic pour les besoins résidentiels et professionnels.
+          </p>
+
+          <div class="primary-actions" aria-label="Actions de contact">
+            <a class="button button-primary" href="tel:+212677141964">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.1 2.5 4.4 3.8a2 2 0 0 0-1.1 2.1c.8 7.4 6.7 13.3 14.1 14.1a2 2 0 0 0 2.1-1.1l1.3-2.7a1.5 1.5 0 0 0-.4-1.8l-3-2.4a1.5 1.5 0 0 0-1.9 0l-1.3 1.1a11 11 0 0 1-3.3-3.3L12 8.5a1.5 1.5 0 0 0 0-1.9l-2.4-3a1.5 1.5 0 0 0-1.8-.4Z" /></svg>
+              Appeler
+            </a>
+            <a
+              class="button button-secondary button-whatsapp-icon"
+              href="https://wa.me/212677141964?text=Bonjour%20ElectroZizo%2C%20je%20souhaite%20demander%20un%20devis."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a8.8 8.8 0 0 0-7.5 13.4L3.3 21l4.7-1.2A9 9 0 1 0 12 3Zm0 1.8a7.2 7.2 0 0 1 0 14.4 7 7 0 0 1-3.6-1l-.4-.3-2.1.6.6-2-.3-.5A7.2 7.2 0 0 1 12 4.8Zm-3.1 3c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.3.1.2 1.6 2.5 4 3.4 2 .8 2.4.6 2.9.6.4 0 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1-.1-.1-.4-.2-.9-.4l-1.5-.7c-.2-.1-.4-.1-.6.2l-.7.8c-.1.2-.3.2-.6.1a6 6 0 0 1-1.8-1.1 6.7 6.7 0 0 1-1.2-1.5c-.1-.2 0-.4.1-.5l.4-.5.2-.4c.1-.2 0-.4 0-.5l-.7-1.6c-.2-.4-.4-.4-.8-.4Z" /></svg>
+              WhatsApp
+            </a>
+          </div>
+
+          <div class="phone-card">
+            <span class="phone-label">Contact direct</span>
+            <div class="phone-details">
+              <span class="contact-name">Azeddine ERRADI</span>
+              <a href="tel:+212677141964">06 77 14 19 64</a>
+            </div>
+            <button class="icon-button" id="copy-phone" type="button" aria-label="Copier le numéro de téléphone" title="Copier le numéro">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 8h11v11H8z" /><path d="M5 16H4V5h11v1" /></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Aperçu de la carte ElectroZizo">
+          <div class="visual-glow"></div>
+          <button
+            class="business-card"
+            id="card-toggle"
+            type="button"
+            aria-pressed="false"
+            aria-label="Afficher le recto de la carte"
+            aria-describedby="card-hint"
+          >
+            <span class="card-inner" aria-hidden="true">
+              <span class="card-face card-face-back">
+                <img
+                  src="assets/electrozizo-services-v2.png"
+                  alt=""
+                  width="1575"
+                  height="998"
+                />
+              </span>
+              <span class="card-face card-face-front">
+                <img
+                  src="assets/electrozizo-recto.png"
+                  alt=""
+                  width="1577"
+                  height="997"
+                />
+              </span>
+            </span>
+          </button>
+          <p class="card-hint" id="card-hint">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h12a4 4 0 0 1 4 4v1M7 4 4 7l3 3M20 17H8a4 4 0 0 1-4-4v-1m13 8 3-3-3-3" /></svg>
+            <span id="card-hint-text">Cliquez pour voir le recto</span>
+          </p>
+          <span class="orbit orbit-one" aria-hidden="true"></span>
+          <span class="orbit orbit-two" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="services-section" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Savoir-faire</p>
+          <h2 id="services-title">Quatre services.<br />Un seul contact.</h2>
+          <p>Une présentation claire des prestations ElectroZizo.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 48 48"><path d="M28 3 13 26h10l-3 19 15-24H25Z" /></svg>
+            <h3>Électricité générale</h3>
+            <p>Résidentiel &amp; Professionnel</p>
+          </article>
+          <article class="service-card">
+            <div class="service-number">02</div>
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 48 48"><path d="M12 8h24v10H12zM8 30h12v10H8zm20 0h12v10H28zM24 18v8M14 26h20M14 26v4m20-4v4" /></svg>
+            <h3>Câblage réseaux</h3>
+            <p>Réseau • Informatique • TV</p>
+          </article>
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 48 48"><path d="M8 17h25l7 6-7 6H8zM13 29v7m15-7v7M39 23h5" /></svg>
+            <h3>Caméras de surveillance</h3>
+            <p>Installation &amp; Configuration</p>
+          </article>
+          <article class="service-card">
+            <div class="service-number">04</div>
+            <svg class="service-icon" aria-hidden="true" viewBox="0 0 48 48"><circle cx="21" cy="21" r="11" /><path d="m29 29 12 12M21 5v5M21 32v5M5 21h5m22 0h5M10 10l4 4m14 14 4 4m0-22-4 4M14 28l-4 4" /></svg>
+            <h3>Diagnostic des appareils électriques</h3>
+            <p>Contrôle • Dépannage • Maintenance</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <p class="eyebrow"><span></span> Parlons de votre projet</p>
+          <h2 id="contact-title">Besoin d’une installation ou d’un diagnostic&nbsp;?</h2>
+          <p>Contactez ElectroZizo directement ou enregistrez la fiche dans votre téléphone.</p>
+          <div class="contact-actions">
+            <a
+              class="button button-dark"
+              href="https://wa.me/212677141964?text=Bonjour%20ElectroZizo%2C%20je%20souhaite%20demander%20un%20devis."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Demander un devis</a>
+            <a class="button button-outline-dark" href="electrozizo.vcf" download>
+              Enregistrer le contact
+            </a>
+            <button class="button button-outline-dark" id="share-card" type="button">Partager la carte</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand-small" href="#accueil" aria-label="Retour en haut">
+        <span class="brand-mark" aria-hidden="true"><b>E</b><b>Z</b></span>
+        <span class="brand-name">Electro<span>Zizo</span></span>
+      </a>
+      <p>Électricité générale • Réseaux • Sécurité</p>
+      <p>© <span id="year"></span> ElectroZizo</p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
